@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Template
 metadata:
   creationTimestamp: null
-  name: Template-voting-app
+  name: example-template-voting-app
 objects:
 - apiVersion: v1
   data:
