@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, make_response, g
 from redis import Redis
-from gevent.pywsgi import WSGIServer
 import os
 import socket
 import random
@@ -49,6 +48,4 @@ def hello():
 
 
 if __name__ == "__main__":
-    http_server = WSGIServer(('', 5000), app)
-    http_server.serve_forever()
-    #app.run(host='0.0.0.0', port=80, debug=True, threaded=True)
+     app.run(host='0.0.0.0', port=80, debug=True, threaded=True)
