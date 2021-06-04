@@ -298,7 +298,7 @@ objects:
           from:
             kind: ImageStreamTag
             name: 'vote:latest'
-            namespace: pfe-jawher
+            namespace: pfejawher
           lastTriggeredImage: 
         type: ImageChange
       - type: ConfigChange
@@ -354,7 +354,7 @@ objects:
           from:
             kind: ImageStreamTag
             name: 'result:latest'
-            namespace: pfe-jawher
+            namespace: pfejawher
           lastTriggeredImage: 
         type: ImageChange
       - type: ConfigChange
@@ -505,7 +505,7 @@ objects:
           from:
             kind: ImageStreamTag
             name: 'worker:latest'
-            namespace: pfe-jawher
+            namespace: pfejawher
           lastTriggeredImage: 
         type: ImageChange
       - type: ConfigChange
